@@ -25,7 +25,7 @@ export default{
     <button type="button" @click="getByID">User is {{ user }}</button>
     <p>
       Edit
-      <code>components/HelloWorld.vue</code> to test HMR
+      <code>Je moeder</code> to test HMR
     </p>
   </div>
 
@@ -50,12 +50,14 @@ export default{
 </style>
 
 <script>
-import { ref } from 'vue'
+//import { ref } from 'vue'
+import { RouterView } from 'vue-router'
 import { mypage } from '@/Services/index.js'
 
     export default {
         components: {
-            AuthLayout,
+          RouterView,
+          mypage,
             msg: String
         },
         data() {
