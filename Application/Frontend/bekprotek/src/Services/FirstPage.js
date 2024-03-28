@@ -1,19 +1,22 @@
 import axios from 'axios'
 
-const BASE_API_URL = 'https://localhost:8081'
+const BASE_API_URL = 'http://localhost:8081'
 
-async function getById(id) {
+async function getByID(id) {
     var data = null
-
+    id = "foo"
     try {
-        if (isNaN(id))
+        if (!isNaN(id))
             return null
-    
+        
+        
         var response = await axios.get(`${BASE_API_URL}/${id}`)
+        console.log(id)
         if (response.status != 200)
             return null
 
         data = response.data
+        console.log(data + " " + "yeet")
     } catch {
         console.log('[Error]: Failed to fetch products')
     }
@@ -23,5 +26,5 @@ async function getById(id) {
 
 
 export default {
-    GetByID  
+    getByID 
 }
