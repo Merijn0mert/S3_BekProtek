@@ -7,11 +7,11 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Column;
 
 @Entity
-@Table(name="dbo.test")
+@Table(name="test")
 public class Contact implements Serializable {
     @Id
     @Column(name = "id")
-    private String id; // Change the type to String
+    private long id; // Change the type to String
 
     @Column(name = "name")
     private String name;
@@ -20,11 +20,11 @@ public class Contact implements Serializable {
     private String phone;
 
     // Getters and setters for id, name, and phone
-    public String getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 

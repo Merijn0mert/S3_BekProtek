@@ -1,26 +1,32 @@
 package com.bekprotek.bekprotek;
 
-/*import com.bekprotek.bekprotek.AdressbookResource;
-import com.bekprotek.bekprotek.AdressbookDAO;*/
+import com.bekprotek.bekprotek.AdressbookResource;
+import com.bekprotek.bekprotek.AdressbookDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.Collection;
 import java.util.Optional;
+import java.util.*;
 
 @Service
 public class AdressbookService {
 
-    private final AdressbookDAO repo;
+    private AdressbookDAO adressrepo;
 
     @Autowired
-    public AdressbookService(AdressbookDAO repo) {
-        this.repo = repo;
+    public AdressbookService(AdressbookDAO adressrepo) {
+        this.adressrepo = adressrepo;
     }
 
+
     public Collection<Contact> getContacts() {
-        return repo.findAll();
+        return adressrepo.findAll();
     }
-    public Optional<Contact> getContact(String id) {
-        return repo.findById(Long.valueOf(id));
+
+    public Optional<Contact> getContact(Long id) {
+        return adressrepo.findById(id);
     }
+/*    public Optional<Contact> getContact(String id) {
+        return adressrepo.findById(Long.valueOf(id));
+    }*/
 }

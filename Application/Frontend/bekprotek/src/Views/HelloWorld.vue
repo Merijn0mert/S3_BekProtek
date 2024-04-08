@@ -19,7 +19,7 @@ export default{
 </script> -->
 
 <template>
-  <h1>Hallo allemaal</h1>
+  <h1>Hallo allemaal je moeder</h1>
 
   <div class="card">
     <button type="button" @click="getByID">User is {{ user }}</button>

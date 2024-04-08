@@ -1,0 +1,35 @@
+services:
+  bekprotek_backend:
+    image: bekprotek-server:latest
+    container_name: bekprotek_backend
+    build:
+      context: Backend/bekprotek
+      dockerfile: Dockerfile
+    ports:
+      - 8081:8081
+    restart: always
+  bekprotek_frontend:
+    image: bekprotek:latest
+    container_name: bekprotek_frontend
+    build:
+      context: Frontend/bekprotek
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+  bekprotek_db:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: bekprotek_db
+    build: .
+    ports:
+      - "1433:1433"
+    restart: always
+    environment:
+      ACCEPT_EULA: "y"
+      MSSQL_SA_PASSWORD: "Bekpr0tek"
+    volumes:
+      - "./mssql/data/:/var/opt/mssql/data/"
+      - "./mssql/log/:/var/opt/mssql/log/"
+      - "./mssql/secrets/:/var/opt/mssql/secrets/"
+volumes:
+  mssql:
