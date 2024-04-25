@@ -14,5 +14,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: |
-        cd /BekProtek_S3/s3_bekprotek/application/backend/bekprotek
+        cd ..
+        cd /application/backend/bekprotek
         docker build . --file Dockerfile --tag bekprotek-server:latest
