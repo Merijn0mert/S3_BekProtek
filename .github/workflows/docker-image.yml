@@ -22,6 +22,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./Application/Backend/bekprotek
           push: true
           tags: merijn0mert/bekprotek:dockertest, merijn0mert/bekprotek:${{ github.run_number }}
