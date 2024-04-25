@@ -15,4 +15,4 @@ jobs:
     - name: Build the Docker image
       run: |
         cd Application/Backend/bekprotek
-        docker build . --file Dockerfile --tag bekprotek-server:latest
+        docker build -f Dockerfile --tag bekprotek-server:latest
