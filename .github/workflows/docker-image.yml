@@ -18,7 +18,10 @@ jobs:
       with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-    - name: Build the Docker image
-      run: |
-        cd Application/Backend/bekprotek
-        docker build -f Dockerfile --tag bekprotek-server:hello .
+    -
+        name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: merijn0mert/bekprotek:dockertest, merijn0mert/bekprotek:${{ github.run_number }}
