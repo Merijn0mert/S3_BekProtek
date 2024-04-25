@@ -57,4 +57,4 @@ jobs:
         with:
           context: Application/Backend/bekprotek
           push: true
-          tags: merijn0mert/bekprotek:dockertest, merijn0mert/bekprotek:${{ github.run_number }}
+          tags: merijn0mert/bekprotek:Backend_Latest
