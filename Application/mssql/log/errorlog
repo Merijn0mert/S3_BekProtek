@@ -229,3 +229,35 @@
 2024-04-25 11:18:05.96 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
 2024-04-25 11:23:06.05 Logon       Error: 18456, Severity: 14, State: 5.
 2024-04-25 11:23:06.05 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 11:28:06.15 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 11:28:06.15 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 11:33:06.24 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 11:33:06.24 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 11:38:06.36 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 11:38:06.36 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 11:43:06.46 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 11:43:06.46 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 11:48:06.55 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 11:48:06.55 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 11:53:06.65 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 11:53:06.65 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 11:58:06.75 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 11:58:06.75 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:03:06.84 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:03:06.84 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:03:53.83 spid52      XE session 'telemetry_xevents' stopping.
+2024-04-25 12:03:53.87 spid52      XE session 'telemetry_xevents' started.
+2024-04-25 12:08:06.95 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:08:06.95 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:13:07.05 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:13:07.05 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:18:07.15 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:18:07.15 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:23:07.24 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:23:07.24 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:28:07.33 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:28:07.33 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:33:07.45 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:33:07.45 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
+2024-04-25 12:38:07.56 Logon       Error: 18456, Severity: 14, State: 5.
+2024-04-25 12:38:07.56 Logon       Login failed for user 'NT AUTHORITY\ANONYMOUS LOGON'. Reason: Could not find a login matching the name provided. [CLIENT: 172.18.0.1]
