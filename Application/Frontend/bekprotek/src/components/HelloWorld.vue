@@ -1,18 +1,28 @@
-<script setup>
+<!-- <script setup>
 import { ref } from 'vue'
+import { mypage } from '@/services/index.js'
 
-defineProps({
-  msg: String,
-})
+export default{ 
+        components: {
+            AuthLayout,
+            msg: String
+        },
+        data() {
+      return {
+        user:{
+            Email:'',
+            Password:''
+        }
+      }
+    Methods:}
 
-const count = ref(0)
-</script>
+</script> -->
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>Hallo allemaal</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button type="button" @click="getByID">User is {{ user }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
@@ -38,3 +48,31 @@ const count = ref(0)
   color: #888;
 }
 </style>
+
+<script>
+import { ref } from 'vue'
+import { mypage } from '@/Services/index.js'
+
+    export default {
+        components: {
+            AuthLayout,
+            msg: String
+        },
+        data() {
+          return {
+          user:{
+            id: ''
+          }
+      }},
+        methods:{
+            
+          async getByID(id)
+            {
+                this.loading = true
+                this.user  = await mypage.getByID(id)
+                this.loading = false
+                console.log(this.user)
+            },
+      }
+    }
+</script>
