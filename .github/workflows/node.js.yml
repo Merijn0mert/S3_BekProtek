@@ -3,9 +3,6 @@
 
 name: Node.js CI
 
-on:
-  push:
-    branches: [ "Actions" ]
 
 jobs:
   build:
